@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daftar Seminar</title>
+    <link rel="icon" type="image/png" href="../../assets/images/icon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/admin/admin.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+
+  <body>
+    <header class="header fixed-top bg-white pt-2">
+      <nav class="navigation">
+        <div class="title">
+          <div class="text-title">
+            <img
+              src="../assets/images/logo-title2.png"
+              alt="title"
+              class="logo-header"
+            />
+          </div>
+        </div>
+        <ul class="mt-3 navbar">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="jadwal-seminar.html">Jadwal</a></li>
+          <li>
+            <a class="link-active" href="daftar-seminar.html">Daftar Seminar</a>
+          </li>
+          <li><a href="">Berita</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a
+              href="login.html"
+              class="btn btn-success rounded-pill logout shadow-sm"
+              >Login
+            </a>
+          </li>
+          <li class="mt-1"><strong> USER</strong></li>
+        </ul>
+
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+    <div class="space" style="height: 120px"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p>
+            Pendaftaran Seminar Berlaku untuk mahasiswa yang telah mendapata
+            persetujuan dari Pembimbing TA
+          </p>
+        </div>
+        <div class="col-12">
+          <form action="#">
+            <fieldset class="form-daftar-seminar">
+              <legend class="legend-daftar-seminar mb-md-4">
+                Form Daftar Seminar TA
+              </legend>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="pb-2 row">
+                    <div class="col-12 col-md-4 col-xl-2">
+                      <label for="">NIM :</label>
+                    </div>
+                    <div class="col-12 col-md-8 col-xl-10">
+                      <input
+                        type="text"
+                        class="form-control"
+                        aria-label="NIM"
+                      />
+                    </div>
+                  </div>
+                  <div class="py-2 pt-md-2 row py-md-0">
+                    <div class="col-12 col-md-4 col-xl-2">
+                      <label for="">Nama :</label>
+                    </div>
+                    <div class="col-12 col-md-8 col-xl-10">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name=""
+                        aria-label="nama"
+                      />
+                    </div>
+                  </div>
+                  <div class="py-2 row py-md-0 my-3">
+                    <div class="col-12 col-md-4 col-xl-3">
+                      <label for="">Jenis Kelamin</label>
+                    </div>
+                    <div class="col-12 col-md-12 col-xl-8">
+                      <select class="form-select" aria-label="Pembimbing">
+                        <option value="1">Laki-laki</option>
+                        <option value="2">Perempuan</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="py-2 row py-md-0">
+                    <div class="col-12 col-md-4 col-xl-2">
+                      <label for="">Judul TA:</label>
+                    </div>
+                    <div class="col-12 col-md-8 col-xl-9">
+                      <textarea class="pb-md-4 form-control" name=""></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row py-md-2">
+                <div class="col-md-6">
+                  <div class="py-2 row py-md-0">
+                    <div class="col-12 col-md-4 col-xl-2">
+                      <label for="">Prodi :</label>
+                    </div>
+                    <div class="col-12 col-md-8 col-xl-10">
+                      <select class="form-select" aria-label="Prodi">
+                        <option value="1">Sistem Informasi</option>
+                        <option value="2">Teknik Informatika</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="py-2 row py-md-0">
+                    <div class="col-12 col-md-4 col-xl-3">
+                      <label for="">Seminar :</label>
+                    </div>
+                    <div class="col-12 col-md-8 col-xl-8">
+                      <select class="form-select" aria-label="Proposal">
+                        <option value="1">Proposal</option>
+                        <option value="2">Seminar Hasil</option>
+                        <option value="3">Sidang Akhir</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row py-md-2">
+                <div class="col-md-6">
+                  <div class="py-2 row py-md-0">
+                    <div class="col-12 col-md-4 col-xl-4">
+                      <label for="">Tanggal Seminar :</label>
+                    </div>
+                    <div class="col-12 col-md-8 col-xl-8">
+                      <input
+                        type="date"
+                        class="form-control"
+                        name=""
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="py-2 row py-md-0">
+                    <div class="col-12 col-md-4 col-xl-3">
+                      <label for="">Pembimbing :</label>
+                    </div>
+                    <div class="col-12 col-md-8 col-xl-8">
+                      <select class="form-select" aria-label="Pembimbing">
+                        <option value="1">Sirojul Munir S, SI, M.Kom</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row py-md-2">
+                <div class="col-md-6">
+                  <div class="py-2 row py-md-0">
+                    <div class="col-12 col-md-4 col-xl-4">
+                      <label for="">Jam Seminar :</label>
+                    </div>
+                    <div class="col-12 col-md-8 col-xl-8">
+                      <input type="time" class="form-control" name="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="py-2 row py-md-0">
+                    <div class="col-12 col-md-4 col-xl-3">
+                      <label for="">Penguji 1 :</label>
+                    </div>
+                    <div class="col-12 col-md-8 col-xl-8">
+                      <select class="form-select" aria-label="Pembimbing">
+                        <option value="1">Ahmad Rio M. SI</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row py-md-2">
+                <div class="col-md-6">
+                  <div class="py-2 row py-md-0">
+                    <div class="col-12 col-md-4 col-xl-3">
+                      <label for="">Ruangan :</label>
+                    </div>
+                    <div class="col-12 col-md-8 col-xl-9">
+                      <input type="text" class="form-control" name="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="py-2 row py-md-0">
+                    <div class="col-12 col-md-4 col-xl-3">
+                      <label for="">Penguji 2 :</label>
+                    </div>
+                    <div class="col-12 col-md-8 col-xl-8">
+                      <select class="form-select" aria-label="Pembimbing">
+                        <option value="1">Amalia Rahmah M. T</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="py-2 row">
+                <div class="col-12">
+                  <input
+                    type="submit"
+                    class="btn btn-outline-success"
+                    value="Daftar"
+                  />
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script>
+      const dateNow = document.querySelector("input[type=date]");
+
+      var today = new Date();
+      var dd = String(today.getDate()).padStart(2, "0");
+      var mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
+      var yyyy = today.getFullYear();
+
+      today = yyyy + "-" + mm + "-" + dd;
+
+      dateNow.value = today;
+    </script>
+  </body>
+</html>
