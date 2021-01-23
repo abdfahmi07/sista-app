@@ -1,6 +1,6 @@
 # SISTA (SISTEM INFORMASI SEMINAR TUGAS AKHIR)
 RULES: 
-Clone Project : https://github.com/toniyansyah4/pemweb.git
+Clone Project : https://github.com/abdfahmi07/sista-app.git
 
 Bikin branch baru :
 git branch nama_branch
